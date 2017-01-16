@@ -27,3 +27,8 @@ body {
 .text-center {
   text-align: center;
 }
+
+.footer {
+  padding-top: 1%;
+  font-size: 0.6em;
+}
