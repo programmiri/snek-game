@@ -20,7 +20,7 @@ function start() {
   let snek = {
     velocity: { x: 0, y: 0 },
     tiles: [] , // that's the tile for the start of
-    color: 'red'
+    color: '#364421'
   };
 
   let snack = {
@@ -95,11 +95,11 @@ function start() {
         ctx.fillStyle = snek.color;
         ctx.fillRect(tile.x * tile.width, tile.y * tile.height, tile.width, tile.height);
       } else if (tile.food) {
-        ctx.strokeStyle = '#CCC';
+        ctx.strokeStyle = '#c9daaf';
         ctx.fillStyle = snack.color;
         ctx.fillRect((tile.x * tile.width)+2, (tile.y * tile.height)+2, tile.width-4, tile.height-4);
       } else {
-        ctx.strokeStyle = '#CCC';
+        ctx.strokeStyle = '#c9daaf';
       }
       ctx.strokeRect(tile.x * tile.width, tile.y * tile.height, tile.width, tile.height);
     });

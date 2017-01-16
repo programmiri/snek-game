@@ -7,10 +7,11 @@
 
 body {
   font-family: 'Nokia Cellphone';
-  background-color: #CCC;
+  background-color: #eee;
 }
 
 #js-snake-canvas {
+  background-color: #c9daaf;
   margin-top: 50px;
   border: 5px solid black;
 }
