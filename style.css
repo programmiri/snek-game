@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Nokia Cellphone';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Nokia Cellphone FC Small'), url('font/nokiafc22.woff') format('woff');
+}
+
+body {
+  font-family: 'Nokia Cellphone';
+  background-color: #CCC;
+}
+
+#js-snake-canvas {
+  margin-top: 50px;
+  border: 5px solid black;
+}
+
+.snake-gamefield {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-over {
+  visibility: hidden;
+}
+.text-center {
+  text-align: center;
+}
